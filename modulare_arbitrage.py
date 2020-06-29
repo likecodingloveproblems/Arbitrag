@@ -109,7 +109,7 @@ class Arbitrage:
                     order = exc_thread.result()
                     orders[EXCS.index(exc)] = order
                 except Exception as e:
-                    self.log('get order data. {}'.format(e))
+                    self.log('get order data!!! {}'.format(e))
 
         # now we have orders for one loop of arbitrage
         # we can calculate profit
