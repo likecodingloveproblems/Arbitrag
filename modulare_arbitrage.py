@@ -65,7 +65,8 @@ class Arbitrage:
         orders = rq.post('https://api.nobitex.ir/v2/orderbook',
                          data={'symbol': symbol})
         if not orders.ok:
-            print('status code: {}'.format(orders.status_code))
+            print('status code: {}, res:{}'.format(orders.status_code,orders))
+            self.get_order(symbol)
         content = json.loads(orders.content)
         last_order = {
             'buy': {'price': Decimal(content['bids'][0][0]), 'amount': Decimal(content['bids'][0][1])},
