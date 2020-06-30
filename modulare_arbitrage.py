@@ -93,7 +93,7 @@ class Arbitrage:
 
     def transaction_fee(self, base_coin):
         if base_coin == self.irt:
-            return Decimal('0.9965')
+            return Decimal('0.997')
         elif base_coin == self.usdt:
             return Decimal('0.998')
 
@@ -103,7 +103,7 @@ class Arbitrage:
         # then calculate profit
         orders = [0,0,0]
         EXCS = list(map(lambda x: x[0], loop))
-        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
             excutes = {executor.submit(self.get_order, exc): exc for exc in EXCS}
             for exc_thread in concurrent.futures.as_completed(excutes):
                 exc = excutes[exc_thread]
@@ -254,6 +254,7 @@ class Arbitrage:
                     r['order']['unmatchedAmount']) < Decimal('1E-7')
 
                 if status=='Done' or unmatchedAmount_condition:
+                    self.log('transaction done: {}'.format(r))
                     break
                 if status=='Cancel':
                     self.log(content)
@@ -273,13 +274,14 @@ class Arbitrage:
                 time.sleep(10)
                 break
             print(loop, profit)
-            if profit > 1.0:
+            if profit > Decimal('1.0'):
                 self.excute_loop(loop)
                 self.update_rls_balance()
             profits.append(profit)
+        print('\n----------------- max profit: {}------------------\n'.format(max(profits)))
         if max(profits)<=0.994:
-            print('----------------Sleep--------------')
-            time.sleep(10)            
+            print('----------------Sleep--------------\n')
+            time.sleep(5)            
 
 
 # if __name__ == '__main__':

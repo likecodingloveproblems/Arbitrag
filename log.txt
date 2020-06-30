@@ -1,47 +1,24 @@
-2020-06-29 19:02:21.174431: auth, status: success
-2020-06-29 19:02:55.969056: auth, status: success
-2020-06-29 19:04:31.800652: auth, status: success
-2020-06-29 19:05:05.006554: auth, status: success
-2020-06-29 19:05:09.943001: the amount of loop is lower than 1050000 IRT
-2020-06-29 19:05:15.699449: the amount of loop is lower than 1050000 IRT
-2020-06-29 19:05:50.515259: auth, status: success
-2020-06-29 19:08:33.758877: auth, status: success
-2020-06-29 19:09:42.004242: auth, status: success
-2020-06-29 19:23:39.277062: auth, status: success
-2020-06-29 20:15:21.833293: auth, status: success
-2020-06-29 20:19:44.738712: auth, status: success
-2020-06-29 20:38:22.412320: auth, status: success
-2020-06-29 20:52:11.023004: auth, status: success
-2020-06-29 20:54:54.120253: status code: 403, res:<Response [403]>
-2020-06-29 20:54:54.121025: status code: 403, res:<Response [403]>
-2020-06-29 20:54:54.609077: status code: 403, res:<Response [403]>
-2020-06-29 20:54:54.637484: status code: 403, res:<Response [403]>
-2020-06-29 20:54:55.289054: status code: 403, res:<Response [403]>
-2020-06-29 20:54:55.289765: status code: 403, res:<Response [403]>
-2020-06-29 20:54:55.767565: status code: 403, res:<Response [403]>
-2020-06-29 20:54:55.799429: status code: 403, res:<Response [403]>
-2020-06-29 20:54:56.234599: status code: 403, res:<Response [403]>
-2020-06-29 20:54:56.326490: status code: 403, res:<Response [403]>
-2020-06-29 20:54:56.704886: status code: 403, res:<Response [403]>
-2020-06-29 20:54:56.795170: status code: 403, res:<Response [403]>
-2020-06-29 20:58:30.206098: auth, status: success
-2020-06-29 21:02:43.941767: status code: 403, res:<Response [403]>
-2020-06-29 21:02:43.942981: status code: 403, res:<Response [403]>
-2020-06-29 21:02:54.952284: status code: 403, res:<Response [403]>
-2020-06-29 21:02:54.952608: status code: 403, res:<Response [403]>
-2020-06-29 21:02:55.044499: status code: 403, res:<Response [403]>
-2020-06-29 21:02:55.048479: status code: 403, res:<Response [403]>
-2020-06-29 21:02:55.049200: status code: 403, res:<Response [403]>
-2020-06-29 21:02:55.068397: status code: 403, res:<Response [403]>
-2020-06-29 21:09:13.285630: auth, status: success
-2020-06-29 21:13:54.750406: auth, status: success
-2020-06-29 21:14:19.251072: auth, status: success
-2020-06-30 01:48:56.304734: status code: 403, res:<Response [403]>
-2020-06-30 09:32:42.754127: auth, status: success
-2020-06-30 10:04:52.046736: auth, status: success
-2020-06-30 11:13:49.455299: auth, status: success
-2020-06-30 14:36:44.722926: setOrder, buy, IRT, usdt, 16.4718163532207, 208900, status: ok
- content: {'status': 'ok', 'order': {'type': 'buy', 'execution': 'Market', 'srcCurrency': 'Tether', 'dstCurrency': '﷼', 'price': 'market', 'amount': '16.4718163532207', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '16.4718163532207', 'isMyOrder': False, 'id': 145651915, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T10:06:44.586129+00:00', 'market': 'USDT-RLS', 'averagePrice': '0'}}
-2020-06-30 14:36:48.800980: setOrder, buy, USDT, trx, 997.109951675774, 0.01647, status: ok
- content: {'status': 'ok', 'order': {'type': 'buy', 'execution': 'Market', 'srcCurrency': 'TRON', 'dstCurrency': 'Tether', 'price': 'market', 'amount': '997.109951675774', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '997.109951675774', 'isMyOrder': False, 'id': 145651917, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T10:06:48.621051+00:00', 'market': 'TRX-USDT', 'averagePrice': '0'}}
-2020-06-30 14:47:04.620928: auth, status: success
+2020-06-30 19:28:57.562045: status code: 403, res:<Response [403]>
+2020-06-30 20:04:57.058061: status code: 403, res:<Response [403]>
+2020-06-30 20:44:58.564199: status code: 403, res:<Response [403]>
+2020-07-01 01:22:34.326795: the amount of excution is lower than 11.1 USDT
+2020-07-01 01:22:49.280398: the amount of loop is lower than 1050000 IRT
+2020-07-01 01:23:01.591996: the amount of loop is lower than 1050000 IRT
+2020-07-01 01:38:41.158769: setOrder, buy, IRT, xlm, 243.171558194214, 13920, status: ok
+ content: {'status': 'ok', 'order': {'type': 'buy', 'execution': 'Market', 'srcCurrency': 'Stellar', 'dstCurrency': '﷼', 'price': 'market', 'amount': '243.171558194214', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '243.171558194214', 'isMyOrder': False, 'id': 145804439, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:08:41.006792+00:00', 'market': 'XLM-RLS', 'averagePrice': '0'}}
+2020-07-01 01:38:42.918775: transaction done: {'status': 'ok', 'order': {'type': 'buy', 'execution': 'Market', 'srcCurrency': 'Stellar', 'dstCurrency': '﷼', 'price': 'market', 'amount': '243.1715581942', 'totalPrice': '3384948.0900632640', 'matchedAmount': '243.1715581942', 'unmatchedAmount': '0E-10', 'isMyOrder': False, 'id': 145804439, 'status': 'Done', 'partial': False, 'fee': '0.7295146746', 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:08:41.006792+00:00', 'market': 'XLM-RLS', 'averagePrice': '13920'}}
+2020-07-01 01:38:44.091101: setOrder, sell, USDT, xlm, 242.8033428351, 0.06718, status: ok
+ content: {'status': 'ok', 'order': {'type': 'sell', 'execution': 'Market', 'srcCurrency': 'Stellar', 'dstCurrency': 'Tether', 'price': 'market', 'amount': '242.8033428351', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '242.8033428351', 'isMyOrder': False, 'id': 145804440, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:08:43.947988+00:00', 'market': 'XLM-USDT', 'averagePrice': '0'}}
+2020-07-01 01:38:45.263821: transaction done: {'status': 'ok', 'order': {'type': 'sell', 'execution': 'Market', 'srcCurrency': 'Stellar', 'dstCurrency': 'Tether', 'price': 'market', 'amount': '242.8033428351', 'totalPrice': '16.31152857170000000000000000', 'matchedAmount': '242.8033428351', 'unmatchedAmount': '0E-10', 'isMyOrder': False, 'id': 145804440, 'status': 'Done', 'partial': False, 'fee': '0.0326230571', 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:08:43.947988+00:00', 'market': 'XLM-USDT', 'averagePrice': '0.06718000000015643112469746964'}}
+2020-07-01 01:38:46.811182: setOrder, sell, IRT, usdt, 16.2789055145, 209100, status: ok
+ content: {'status': 'ok', 'order': {'type': 'sell', 'execution': 'Market', 'srcCurrency': 'Tether', 'dstCurrency': '﷼', 'price': 'market', 'amount': '16.2789055145', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '16.2789055145', 'isMyOrder': False, 'id': 145804441, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:08:46.659682+00:00', 'market': 'USDT-RLS', 'averagePrice': '0'}}
+2020-07-01 01:38:48.610628: transaction done: {'status': 'ok', 'order': {'type': 'sell', 'execution': 'Market', 'srcCurrency': 'Tether', 'dstCurrency': '﷼', 'price': 'market', 'amount': '16.2789055145', 'totalPrice': '3391386.730165785000000000000', 'matchedAmount': '16.2789055145', 'unmatchedAmount': '0E-10', 'isMyOrder': False, 'id': 145804441, 'status': 'Done', 'partial': False, 'fee': '10174.1601904974', 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:08:46.659682+00:00', 'market': 'USDT-RLS', 'averagePrice': '208330.1440102958956209131820'}}
+2020-07-01 01:39:39.321915: setOrder, buy, IRT, xlm, 242.903201866055, 13920, status: ok
+ content: {'status': 'ok', 'order': {'type': 'buy', 'execution': 'Market', 'srcCurrency': 'Stellar', 'dstCurrency': '﷼', 'price': 'market', 'amount': '242.903201866055', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '242.903201866055', 'isMyOrder': False, 'id': 145804609, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:09:39.179417+00:00', 'market': 'XLM-RLS', 'averagePrice': '0'}}
+2020-07-01 01:39:42.742563: transaction done: {'status': 'ok', 'order': {'type': 'buy', 'execution': 'Market', 'srcCurrency': 'Stellar', 'dstCurrency': '﷼', 'price': 'market', 'amount': '242.9032018661', 'totalPrice': '3381212.5698912000', 'matchedAmount': '242.9032018600', 'unmatchedAmount': '6.1E-9', 'isMyOrder': False, 'id': 145804609, 'status': 'Canceled', 'partial': True, 'fee': '0.7287096056', 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:09:39.179417+00:00', 'market': 'XLM-RLS', 'averagePrice': '13920'}}
+2020-07-01 01:39:45.335066: setOrder, sell, USDT, xlm, 242.1744922544, 0.06716, status: ok
+ content: {'status': 'ok', 'order': {'type': 'sell', 'execution': 'Market', 'srcCurrency': 'Stellar', 'dstCurrency': 'Tether', 'price': 'market', 'amount': '242.1744922544', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '242.1744922544', 'isMyOrder': False, 'id': 145804610, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:09:45.175158+00:00', 'market': 'XLM-USDT', 'averagePrice': '0'}}
+2020-07-01 01:39:47.099706: transaction done: {'status': 'ok', 'order': {'type': 'sell', 'execution': 'Market', 'srcCurrency': 'Stellar', 'dstCurrency': 'Tether', 'price': 'market', 'amount': '242.1744922544', 'totalPrice': '16.26443889980000000000000000', 'matchedAmount': '242.1744922544', 'unmatchedAmount': '0E-10', 'isMyOrder': False, 'id': 145804610, 'status': 'Done', 'partial': False, 'fee': '0.0325288778', 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:09:45.175158+00:00', 'market': 'XLM-USDT', 'averagePrice': '0.06715999999997727258577580439'}}
+2020-07-01 01:39:48.854512: setOrder, sell, IRT, usdt, 16.2319100220, 209190, status: ok
+ content: {'status': 'ok', 'order': {'type': 'sell', 'execution': 'Market', 'srcCurrency': 'Tether', 'dstCurrency': '﷼', 'price': 'market', 'amount': '16.2319100220', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '16.2319100220', 'isMyOrder': False, 'id': 145804611, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:09:48.700131+00:00', 'market': 'USDT-RLS', 'averagePrice': '0'}}
+2020-07-01 01:39:50.570844: transaction done: {'status': 'ok', 'order': {'type': 'sell', 'execution': 'Market', 'srcCurrency': 'Tether', 'dstCurrency': '﷼', 'price': 'market', 'amount': '16.2319100220', 'totalPrice': '3381593.8148832600', 'matchedAmount': '16.2319100220', 'unmatchedAmount': '0E-10', 'isMyOrder': False, 'id': 145804611, 'status': 'Done', 'partial': False, 'fee': '10144.7814446498', 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T21:09:48.700131+00:00', 'market': 'USDT-RLS', 'averagePrice': '208330'}}
