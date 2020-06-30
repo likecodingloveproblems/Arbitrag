@@ -249,11 +249,11 @@ class Arbitrage:
                 r = self.order_status(content)
                 # check status
                 status = r['order']['status']
-                # because we use market execution we don't need unmatchedAmount
-                # # check unmatchedAmount
-                # unmatchedAmount_condition = float(
-                #     r['order']['unmatchedAmount']) == 0.0
-                if status=='Done':
+                # check unmatchedAmount
+                unmatchedAmount_condition = Decimal(
+                    r['order']['unmatchedAmount']) < Decimal('1E-7')
+
+                if status=='Done' or unmatchedAmount_condition:
                     break
                 if status=='Cancel':
                     self.log(content)

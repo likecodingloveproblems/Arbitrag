@@ -39,3 +39,9 @@
 2020-06-30 01:48:56.304734: status code: 403, res:<Response [403]>
 2020-06-30 09:32:42.754127: auth, status: success
 2020-06-30 10:04:52.046736: auth, status: success
+2020-06-30 11:13:49.455299: auth, status: success
+2020-06-30 14:36:44.722926: setOrder, buy, IRT, usdt, 16.4718163532207, 208900, status: ok
+ content: {'status': 'ok', 'order': {'type': 'buy', 'execution': 'Market', 'srcCurrency': 'Tether', 'dstCurrency': '﷼', 'price': 'market', 'amount': '16.4718163532207', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '16.4718163532207', 'isMyOrder': False, 'id': 145651915, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T10:06:44.586129+00:00', 'market': 'USDT-RLS', 'averagePrice': '0'}}
+2020-06-30 14:36:48.800980: setOrder, buy, USDT, trx, 997.109951675774, 0.01647, status: ok
+ content: {'status': 'ok', 'order': {'type': 'buy', 'execution': 'Market', 'srcCurrency': 'TRON', 'dstCurrency': 'Tether', 'price': 'market', 'amount': '997.109951675774', 'totalPrice': '0', 'matchedAmount': 0, 'unmatchedAmount': '997.109951675774', 'isMyOrder': False, 'id': 145651917, 'status': 'Active', 'partial': False, 'fee': 0, 'user': 'am.civil71@gmail.com', 'created_at': '2020-06-30T10:06:48.621051+00:00', 'market': 'TRX-USDT', 'averagePrice': '0'}}
+2020-06-30 14:47:04.620928: auth, status: success
