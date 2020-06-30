@@ -67,7 +67,7 @@ class Arbitrage:
         if not orders.ok:
             self.log('status code: {}, res:{}'.format(orders.status_code,orders))
             time.sleep(10)
-            self.main()
+            return None
         content = json.loads(orders.content)
         last_order = {
             'buy': {'price': Decimal(content['bids'][0][0]), 'amount': Decimal(content['bids'][0][1])},
@@ -113,6 +113,10 @@ class Arbitrage:
                 except Exception as e:
                     self.log('get order data!!! {}'.format(e))
 
+        # check get_order result
+        order_has_None = list(filter(lambda x: x==None, orders)) != []
+        if order_has_None:
+            return None, None
         # now we have orders for one loop of arbitrage
         # we can calculate profit
         profit = Decimal('1.0')
@@ -265,13 +269,17 @@ class Arbitrage:
         for loop in loops:
             # check profittability
             profit, loop = self.check_profit(loop)
+            if profit==None or loop==None:
+                time.sleep(10)
+                break
             print(loop, profit)
             if profit > 1.0:
                 self.excute_loop(loop)
                 self.update_rls_balance()
             profits.append(profit)
-        if max(profits)<=0.992:
-            time.sleep(5)            
+        if max(profits)<=0.994:
+            print('----------------Sleep--------------')
+            time.sleep(10)            
 
 
 # if __name__ == '__main__':
